@@ -1,0 +1,56 @@
+#guess{
+    text-align: center;
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+body{
+    background-color: black;
+    color: green;
+    font-family: 'Press Start 2P', cursive;
+
+
+}
+#randomPic{
+    width: 25%;
+    height: auto;
+    padding: 0.6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    padding: 0.5em;
+}
+.subtitle{
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+.title, .subtitle{
+    text-align: center;
+}
+.title{
+    padding: 0.5em;
+    border-style: dotted;
+    border-width: 0.1em;
+    border-color: green;
+    font-family: 'Monoton', cursive;
+    font-size: 2.5em;
+
+}
+.current{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.guesses{
+    text-align: center;
+    padding: 0.5em;
+}
+
+#guessRemain{
+    padding: 1em;
+}
+
+#lettersGuessed{
+    padding: 0.5em;
+}

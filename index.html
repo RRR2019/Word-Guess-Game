@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WORD GUESS GAME - VIDEOGAME CHARACTERS</title>
+    <!--Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Word Guess Game</h1>
+    </header>
+    <div container>
+        <h2 class="subtitle">Video Game Characters Edition!</h2>
+        <img id="randomPic" src="assets/images/start.gif" alt="Pic">
+        <h2 class="current">Current Word</h2>
+        <h3 id="guess"></h3>
+        <div class="guesses">
+            <p>Guesses Remaining:</p>
+            <p id="guessRemain">10</p>
+            <p>Letters Guessed:</p>
+            <p id="lettersGuessed"></p>
+        </div>
+
+        <div>
+            <audio id="mario">
+                <source src="./assets/audio/mario.mp3" type="audio/mp3">
+            </audio>
+            <audio id="bowser">
+                    <source src="./assets/audio/bowser.mp3" type="audio/mp3">
+            </audio>
+            <audio id="donkeykong">
+                    <source src="./assets/audio/donkeykong.mp3" type="audio/mp3">
+            </audio>
+            <audio id="link">
+                    <source src="./assets/audio/link.mp3" type="audio/mp3">
+            </audio>
+            <audio id="megaman">
+                    <source src="./assets/audio/megaman.mp3" type="audio/mp3">
+            </audio>
+            <audio id="pacman">
+                    <source src="./assets/audio/pacman.mp3" type="audio/mp3">
+            </audio>
+            <audio id="pikachu">
+                    <source src="./assets/audio/pikachu.mp3" type="audio/mp3">
+            </audio>
+            <audio id="peach">
+                    <source src="./assets/audio/peach.mp3" type="audio/mp3">
+            </audio>
+            <audio id="samus">
+                    <source src="./assets/audio/samus.mp3" type="audio/mp3">
+            </audio>
+            <audio id="snake">
+                    <source src="./assets/audio/snake.mp3" type="audio/mp3">
+            </audio>
+            <audio id="yoshi">
+                    <source src="./assets/audio/yoshi.mp3" type="audio/mp3">
+            </audio>
+            <audio id="zelda">
+                    <source src="./assets/audio/zelda.mp3" type="audio/mp3">
+            </audio>
+
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
