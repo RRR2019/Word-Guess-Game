@@ -1,2 +1,2 @@
 # Word-Guess-Game
-Word Guess Game with Javascript
+Hangman game featuring classic videogame characters, built with HTML5, CSS3 and Javascript.
